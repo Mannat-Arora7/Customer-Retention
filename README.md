@@ -1,9 +1,9 @@
 # Customer-Retention
 ML model predicting customer churn using Python and scikit-learn.
 
-# 🎯 Customer Churn Prediction & Retention Analysis
+# Customer Churn Prediction & Retention Analysis
 
-&gt; **Predicting customer churn using machine learning to enable proactive retention strategies.**
+ **Predicting customer churn using machine learning to enable proactive retention strategies.**
 
 ---
 
@@ -30,7 +30,7 @@ Customer churn is one of the most critical business problems — acquiring a new
 | `MonthlyCharges`, `TotalCharges` | Financial metrics |
 | `Churn` | **Target:** Yes/No (customer left or not) |
 
-**Source:** [IBM Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) *(or mention your actual source)*
+**Source:** [IBM Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) 
 
 ---
 
@@ -45,25 +45,15 @@ Customer churn is one of the most critical business problems — acquiring a new
 - Handled missing values (`TotalCharges` coercion)
 - Encoded categorical variables (One-Hot Encoding)
 - Feature scaling (StandardScaler)
-- Addressed class imbalance with **SMOTE** (if used)
 
-### 3. Model Building & Comparison
-| Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
-|-------|----------|-----------|--------|----------|---------|
-| Logistic Regression | XX% | XX% | XX% | XX% | XX% |
-| Random Forest | XX% | XX% | XX% | XX% | XX% |
-| XGBoost | XX% | XX% | XX% | XX% | XX% |
-| **Best Model** | **XX%** | **XX%** | **XX%** | **XX%** | **XX%** |
 
-&gt; ⚠️ **Replace XX with your actual scores**
-
-### 4. Model Evaluation
+### 3. Model Evaluation
 - **Confusion Matrix** analysis
 - **ROC-AUC Curve** for threshold tuning
 - **Precision-Recall Trade-off** (critical for imbalanced data)
 - **Cross-validation** for robustness
 
-### 5. Feature Importance & Interpretability
+### 4. Feature Importance & Interpretability
 - Top churn predictors identified:
   1. **Contract Type** (Month-to-month = high risk)
   2. **Tenure** (New customers churn more)
@@ -75,10 +65,13 @@ Customer churn is one of the most critical business problems — acquiring a new
 
 ## 🛠️ Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+[Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-1.5+-150458?logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-1.23+-013243?logo=numpy)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2+-F7931E?logo=scikit-learn)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6+-11557c?logo=matplotlib)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.12+-4c72b0?logo=seaborn)
-![XGBoost](https://img.shields.io/badge/XGBoost-1.7+-orange?logo=xgboost)
+
+
+## Linkedin Profile:
+https://www.linkedin.com/in/mannatpreet-kaur-3360303b9/
