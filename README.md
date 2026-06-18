@@ -65,7 +65,7 @@ Customer churn is one of the most critical business problems — acquiring a new
 
 ## 🛠️ Tech Stack
 
-[Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-1.5+-150458?logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-1.23+-013243?logo=numpy)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2+-F7931E?logo=scikit-learn)
